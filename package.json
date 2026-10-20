@@ -1,0 +1,13 @@
+{
+  "name": "supalive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable Supabase heartbeat skill for Codex, Claude Code and Cursor",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/cli.test.mjs",
+    "test:sql": "node --test tests/sql.integration.mjs"
+  }
+}
